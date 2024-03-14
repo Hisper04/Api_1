@@ -19,7 +19,7 @@ def abdo():
 			
 			aya_oll=res['verses'][ay]['text']
 			aya=res['verses'][ay_1]['text']
-			data={'data':{'1':aya_oll,'2':aya}}
+			data={'data':{1:aya_oll,2:aya}}
 			return jsonify(data)
 		except:
 			data={'data':'error'}
