@@ -1,4 +1,6 @@
-import json,random,requests
+import json
+import random
+import requests
 from flask import Flask,request,jsonify
 app=Flask(__name__)
 def mm(nam):
